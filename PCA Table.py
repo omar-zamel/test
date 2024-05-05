@@ -1,10 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 import pandas as pd
+import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
